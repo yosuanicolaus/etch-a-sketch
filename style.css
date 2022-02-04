@@ -1,0 +1,41 @@
+* {
+    background: rgb(32, 32, 32);
+    color: rgb(241, 241, 241);
+}
+
+html {
+    height: 98%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header, .footer {
+    text-align: center;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 30rem 1fr 1fr;
+}
+
+.container {
+    height: 30rem;
+    border: .5px solid whitesmoke;
+}
+
+.leftbar, .rightbar {
+    display: flex;
+    flex-direction: column;
+}
+
+.leftbar > button, .rightbar > div {
+    margin: .4rem 1rem;
+    width: 12rem;
+    height: 3rem;
+    border: .5px solid whitesmoke;
+}
+
+.footer {
+    margin-top: 1rem;
+}
