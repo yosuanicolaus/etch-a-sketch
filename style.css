@@ -22,6 +22,7 @@ html {
 .container {
     height: 30rem;
     border: .5px solid whitesmoke;
+    display: grid;
 }
 
 .leftbar, .rightbar {
