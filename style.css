@@ -30,11 +30,10 @@ html {
     flex-direction: column;
 }
 
-.leftbar > button, .rightbar > div {
+.leftbar > button, .rightbar > button {
     margin: .4rem 1rem;
     width: 12rem;
     height: 3rem;
-    border: .5px solid whitesmoke;
 }
 
 .footer {
