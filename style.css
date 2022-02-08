@@ -25,6 +25,11 @@ html {
     display: grid;
 }
 
+.pixel {
+    transition-duration: 1s;
+    border-radius: 10%;
+}
+
 .leftbar, .rightbar {
     display: flex;
     flex-direction: column;

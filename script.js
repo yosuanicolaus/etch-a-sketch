@@ -5,6 +5,7 @@ function fillBoard() {
     container.style.gridTemplateColumns = 'repeat(' + boardSize + ', 1fr)';
     for (let i = 0; i < boardSize ** 2; i++) {
         const element = document.createElement('div');
+        element.className = 'pixel';
     
         // element.textContent = i+1;
         // element.style.fontSize = '7px';
